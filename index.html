@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sarah's Portfolio</title>
+    <!-- This is animate link for H1 tag -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- This is css file -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <!-- This is the favicon which will didplay on the url of this page-->
+    <link rel="icon" href="assets/images/favicon/sarai-favicon.ico" />
+  </head>
+  <body>
+    <!-- navbar begins here -->
+    <header class="nav-bar">
+      <div class="left-section">
+        <div class="logo" onclick="toggleDropdown()">
+          <ion-icon name="menu-outline"></ion-icon>
+          <!-- &#9776; -->
+        </div>
+        <nav class="nav-links" id="navLinks">
+          <ul>
+            <li>
+              <a href="#Home">Home</a>
+            </li>
+            <li>
+              <a href="#About">About</a>
+            </li>
+            <li>
+              <a href="#Category">Category</a>
+            </li>
+            <li>
+              <a href="#Skills">Skills</a>
+            </li>
+            <li>
+              <a href="#Project">Project</a>
+            </li>
+            <li>
+              <a href="#Resume">Resume</a>
+            </li>
+            <li>
+              <a href="#Connect">Connect</a>
+            </li>
+            <li>
+              <a href="#Message">Message</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="brand">
+        <div class="brand animate__animated animate__flipInY">
+          <p>EjaSarah<span class="span-p">~</span>Designs</p>
+        </div>
+      </div>
+      <div class="nav-social">
+        <div class="social" id="Connect">
+          <a
+            href="https://www.instagram.com/eja_sarah1?igsh=MTdhY2RsdDdieGYxdg"
+            target="_blank"
+            ><ion-icon name="logo-instagram"></ion-icon
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/sarah-eja-ogbonna123456/"
+            target="blank"
+            ><ion-icon name="logo-linkedin"></ion-icon
+          ></a>
+          <a href="https://github.com/EjaSarah" target="_blank"
+            ><ion-icon name="logo-github"></ion-icon
+          ></a>
+          <a href="mailto:examplemail@gmail.com" target="_blank">
+            <ion-icon name="chatbox-ellipses-outline"></ion-icon>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <!-- THIS IS HERO SECTION -->
+    <div class="video-div">
+      <video controls>
+        <source src="assets/video/beach.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <div class="overlay"></div>
+      <a class="gradient btn btn-lg" href="#home" role="button"
+        >Get To Know Me</a
+      >
+    </div>
+
+    <main id="About">
+      <div class="background-image">
+        <div class="background-image-text animate__animated animate__bounce">
+          <h1>
+            Hi, I'm Sarah Eja Ogbonna, <br />
+            <span> a full stack developer.</span> Welcome to my world!.
+          </h1>
+          <p>Thank you for stopping by on my page.</p>
+          <p>
+            I'm a passionate web developer that is fasinated about using my
+            skills to solve some of the world's problems.
+          </p>
+          <div>
+            <a id="Resume" class="gradient btn btn-lg" href="assets/sarah's_cv (1).pdf">Download Resume</a>
+        </div>
+        </div>
+        <div class="overlay"></div>
+      </div>
+    </main>
+
+
+<!-- This is Category Section -->
+<section id="Category">
+  <h2 class="category-heading">
+    Take a look at some of the services I offer.
+  </h2>
+  <p class="category-subheading">I am available to work.</p>
+  <div class="category-image-grid">
+    <div class="image">
+      <img src="assets/images/work/full-stack.jpg" alt="App Image" />
+      <div class="category-text">
+        <h2>Full stack Developer</h2>
+        <p>
+          As a full stack developer, I am facinated about using my skills to solve some of the world's problems.
+        </p>
+        <a href="#" class="gradient btn btn-lg">Read More</a>
+      </div>
+    </div>
+
+    <div class="image">
+      <img src="assets/images/work/screen-writer.jpg" alt="Writer Image" />
+      <div class="category-text">
+        <h2>Screen Writing</h2>
+        <p>
+         Scripting is something that I have great passion for. From the conception of an idea up to the phase of having it a working script.
+        </p>
+        <a href="#" class="gradient btn btn-lg">Read More</a>
+      </div>
+    </div>
+
+    <div class="image">
+      <img src="assets/images/work/blog-post.jpg" alt="Blog image" />
+      <div class="category-text">
+        <h2>Blog Post Writing</h2>
+        <p>
+          Too busy to keep up the flow of the post on your blog? Let me write it while you fsce other pressing issues.
+        </p>
+        <a href="#" class="gradient btn btn-lg">Read More</a>
+      </div>
+    </div>
+
+    <div class="image">
+      <img src="assets/images/work/content.jpg" alt="Content image" />
+      <div class="category-text">
+        <h2>Content Production</h2>
+        <p>
+          Lets turn those beautiful ideas of yours into real life projects. With a certificate in content production from  the Federal Radio corporation of Nigeria, I deliver on every promise made.
+        </p>
+        <a href="#" class="gradient btn btn-lg">Read More</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+    <!-- This skills section -->
+    <section id="Skills">
+      <h2 class="category-heading">My Skill Set</h2>
+      <p class="category-subheading">These are the skills I have mastered over time.</p>
+      <div class="skills-grid">
+        <div class="skillItem">
+          <div class="skill-content">
+            <div class="icon-div">
+              <ion-icon name="logo-html5"></ion-icon>
+              <p>HTML & CSS</p>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-fill htmlcss"></div>
+            </div>
+          </div>
+        </div>
+        <div class="skillItem">
+          <div class="skill-content">
+            <div class="icon-div">
+              <ion-icon name="logo-javascript"></ion-icon>
+              <p>JavaScript</p>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-fill jv"></div>
+            </div>
+          </div>
+        </div>
+        <div class="skillItem">
+          <div class="skill-content">
+            <div class="icon-div">
+              <ion-icon name="logo-nodejs"></ion-icon>
+              <p>Node.js</p>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-fill nodejs"></div>
+            </div>
+          </div>
+        </div>
+        <div class="skillItem">
+          <div class="skill-content">
+            <div class="icon-div">
+              <ion-icon name="logo-react"></ion-icon>
+              <p>React</p>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-fill react"></div>
+            </div>
+          </div>
+        </div>
+        <div class="skillItem">
+          <div class="skill-content">
+            <div class="icon-div">
+              <ion-icon name="logo-css3"></ion-icon>
+              <p>Tailwind</p>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-fill tailwind"></div>
+            </div>
+          </div>
+        </div>
+        <div class="skillItem">
+          <div class="skill-content">
+            <div class="icon-div">
+              <ion-icon name="logo-css3"></ion-icon>
+              <p>Bootstrap</p>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-fill bootstrap"></div>
+            </div>
+          </div>
+        </div>
+        <div class="skillItem">
+          <div class="skill-content">
+            <div class="icon-div">
+              <ion-icon name="logo-nodejs"></ion-icon>
+              <p>MySQL</p>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-fill mysql"></div>
+            </div>
+          </div>
+        </div>
+        <div class="skillItem">
+          <div class="skill-content">
+            <div class="icon-div">
+              <ion-icon name="logo-css3"></ion-icon>
+              <p>NoSQL</p>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-fill nosql"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+
+
+
+
+
+
+
+
+    <!-- This is Project Section -->
+    <section id="Project">
+      <h2 class="project-heading">
+        You're a business owner. You are changing the world with what you do,
+        now let me get you noticed globally by building the website that puts
+        you on the spotlight.
+      </h2>
+      <p class="project-subheading">Take a Look at a few of my work</p>
+      <div class="project-image-grid">
+        <div class="image">
+          <img src="assets/images/work/cinema.jpg" alt="Cinema Imag" />
+          <div class="project-text">
+            <h2>Movie Dom</h2>
+            <p>
+              An app that allows users check for trending and daily movies
+              showing in cinemas nationwide
+            </p>
+            <a href="#" class="gradient btn btn-lg">Download</a>
+          </div>
+        </div>
+
+        <div class="image">
+          <img src="assets/images/work/sermon.jpg" alt="Bible Image" />
+          <div class="project-text">
+            <h2>Sermons</h2>
+            <p>
+              An app that allows clerics to put out their messages and members
+              can listen on the go.
+            </p>
+            <a href="#" class="gradient btn btn-lg">Download</a>
+          </div>
+        </div>
+
+        <div class="image">
+          <img src="assets/images/work/cake.jpg" alt="Cake image" />
+          <div class="project-text">
+            <h2>Party Cake App</h2>
+            <p>
+              An app that allows cake vendors to showcase their products to
+              potential clients
+            </p>
+            <a href="#" class="gradient btn btn-lg">Download</a>
+          </div>
+        </div>
+
+        <div class="image">
+          <img src="assets/images/work/gift.jpg" alt="Gift image" />
+          <div class="project-text">
+            <h2>Gift Box</h2>
+            <p>
+              An app that allows party guest pick a gift of choice ahead of an
+              event for the celebrant.
+            </p>
+            <a href="#" class="gradient btn btn-lg">Download</a>
+          </div>
+        </div>
+
+        <div class="image">
+          <img src="assets/images/work/school.jpg" alt="School Image" />
+          <div class="project-text">
+            <h2>School Ville</h2>
+            <p>
+              An app that allows school owners to register their school and
+              users can find schools near them
+            </p>
+            <a href="#" class="gradient btn btn-lg">Download</a>
+          </div>
+        </div>
+        <div class="image">
+          <img src="assets/images/work/date.jpg" alt="" />
+          <div class="project-text">
+            <h2>Datify</h2>
+            <p>A place to connect and find true love.</p>
+            <a href="#" class="gradient btn btn-lg">Download</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    
+<!-- CONTACT US FORM SECTION -->
+<section id="Message" class="contact-section">
+  <h5>Contact Me</h5>
+  <form class="contact-form" action="#" method="post">
+    <div class="form-group">
+      <label for="fullname">FullName:</label>
+      <input type="text" id="fullname" name="fullname" placeholder="Enter your full name">
+    </div>
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email">
+    </div>
+    <div class="form-group">
+      <label for="phoneNumber">Phone number</label>
+      <input
+        type="number"
+        name="phoneNumber"
+        placeholder="0704983722"
+      />
+    </div>
+    <div class="form-group">
+      <label for="message">Message Me:</label>
+      <textarea id="message" name="message" placeholder="Enter your message"></textarea>
+    </div>
+    <button type="submit" class="gradient btn btn-lg">Submit</button>
+  </form>
+</section>
+
+
+<footer>
+  <div class="footer-section">
+    <p class="footer-p1">Connect With Us On Our social Media Platforms</p>
+  </div>
+  <div class="footer-section">
+    <div class="social-links">
+      <a href="https://github.com/EjaSarah" target="_blank" class="social-icon" target="_blank">
+        <div><ion-icon name="logo-github"></ion-icon></div></i>
+      </a>
+      <a href="https://www.linkedin.com/in/sarah-eja-ogbonna123456/"
+      target="blank" class="social-icon">         
+         <div><ion-icon name="logo-linkedin"></ion-icon></div>
+        </a>
+      <a href="https://www.instagram.com/eja_sarah1?igsh=MTdhY2RsdDdieGYxdg"
+      target="_blank" class="social-icon">
+        <div><ion-icon name="logo-instagram"></ion-icon></div>
+      </a>
+    </div>
+  </div>
+  <div class="footer-section">
+    <p class="footer-p2">
+      &copy; 2024 EjaSarah<span class="span-p">~</span>Designs. All rights reserved.
+    </p>
+  </div>
+</footer>
+
+
+    <!-- This is the container that wraps the whole content of this website -->
+    <div class="container">
+      <!-- This is the script for ionicons -->
+      <script
+        type="module"
+        src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+      ></script>
+      <script
+        nomodule
+        src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+      ></script>
+      <!-- This is java script file -->
+      <script src="script/index.js"></script>
+      <!-- Div container ends here -->
+    </div>
+  </body>
+</html>
